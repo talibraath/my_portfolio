@@ -1,0 +1,626 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v18.20.5
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\portfolio\.npmrc
+5 silly config load:file:C:\Users\saadr\.npmrc
+6 silly config load:file:C:\Users\saadr\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install @vercel/analytics @vercel/speed-insights
+8 verbose argv "install" "@vercel/analytics" "@vercel/speed-insights" "--legacy-peer-deps"
+9 verbose logfile logs-max:10 dir:D:\portfolio\%APPDATA%\npm-cache\_logs\2025-04-17T19_09_32_830Z-
+10 verbose logfile D:\portfolio\%APPDATA%\npm-cache\_logs\2025-04-17T19_09_32_830Z-debug-0.log
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest next@^14.0.0
+16 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/next 2234ms (cache updated)
+18 silly packumentCache full:https://registry.npmjs.org/next set size:undefined disposed:false
+19 silly fetch manifest react@^18.2.0
+20 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/react 474ms (cache updated)
+22 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+23 silly fetch manifest react-dom@^18.2.0
+24 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/react-dom 456ms (cache updated)
+26 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+27 silly fetch manifest @vercel/analytics@*
+28 silly packumentCache full:https://registry.npmjs.org/@vercel%2fanalytics cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/@vercel%2fanalytics 2550ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/@vercel%2fanalytics set size:undefined disposed:false
+31 silly fetch manifest @vercel/speed-insights@*
+32 silly packumentCache full:https://registry.npmjs.org/@vercel%2fspeed-insights cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/@vercel%2fspeed-insights 3121ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/@vercel%2fspeed-insights set size:undefined disposed:false
+35 silly placeDep ROOT @vercel/analytics@1.5.0 OK for: my-v0-project@0.1.0 want: *
+36 silly placeDep ROOT @vercel/speed-insights@1.2.0 OK for: my-v0-project@0.1.0 want: *
+37 silly placeDep ROOT next@14.2.28 REPLACE for: my-v0-project@0.1.0 want: ^14.0.0
+38 silly placeDep ROOT react@18.3.1 REPLACE for: my-v0-project@0.1.0 want: ^18.2.0
+39 silly placeDep ROOT react-dom@18.3.1 REPLACE for: my-v0-project@0.1.0 want: ^18.2.0
+40 silly fetch manifest @next/env@14.2.28
+41 silly packumentCache full:https://registry.npmjs.org/@next%2fenv cache-miss
+42 silly fetch manifest styled-jsx@5.1.1
+43 silly packumentCache full:https://registry.npmjs.org/styled-jsx cache-miss
+44 silly fetch manifest graceful-fs@^4.2.11
+45 silly packumentCache full:https://registry.npmjs.org/graceful-fs cache-miss
+46 silly fetch manifest @swc/helpers@0.5.5
+47 silly packumentCache full:https://registry.npmjs.org/@swc%2fhelpers cache-miss
+48 silly fetch manifest @next/swc-darwin-x64@14.2.28
+49 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 cache-miss
+50 silly fetch manifest @next/swc-darwin-arm64@14.2.28
+51 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 cache-miss
+52 silly fetch manifest @next/swc-linux-x64-gnu@14.2.28
+53 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu cache-miss
+54 http fetch GET 200 https://registry.npmjs.org/graceful-fs 80ms (cache miss)
+55 silly packumentCache full:https://registry.npmjs.org/graceful-fs set size:undefined disposed:false
+56 silly fetch manifest @next/swc-linux-x64-musl@14.2.28
+57 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl cache-miss
+58 http fetch GET 200 https://registry.npmjs.org/styled-jsx 246ms (cache updated)
+59 silly packumentCache full:https://registry.npmjs.org/styled-jsx set size:undefined disposed:false
+60 silly fetch manifest @next/swc-win32-x64-msvc@14.2.28
+61 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-x64-msvc cache-miss
+62 http fetch GET 200 https://registry.npmjs.org/@swc%2fhelpers 305ms (cache updated)
+63 silly packumentCache full:https://registry.npmjs.org/@swc%2fhelpers set size:undefined disposed:false
+64 silly fetch manifest @next/swc-linux-arm64-gnu@14.2.28
+65 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu cache-miss
+66 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-musl 2125ms (cache updated)
+67 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl set size:undefined disposed:false
+68 silly fetch manifest @next/swc-win32-ia32-msvc@14.2.28
+69 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-ia32-msvc cache-miss
+70 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-x64-msvc 2104ms (cache updated)
+71 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-x64-msvc set size:undefined disposed:false
+72 silly fetch manifest @next/swc-linux-arm64-musl@14.2.28
+73 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl cache-miss
+74 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu 2185ms (cache updated)
+75 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu set size:undefined disposed:false
+76 silly fetch manifest @next/swc-win32-arm64-msvc@14.2.28
+77 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc cache-miss
+78 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-arm64 2762ms (cache updated)
+79 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 set size:undefined disposed:false
+80 silly fetch manifest scheduler@^0.23.2
+81 silly packumentCache full:https://registry.npmjs.org/scheduler cache-miss
+82 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-x64 2894ms (cache updated)
+83 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 set size:undefined disposed:false
+84 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-gnu 3036ms (cache updated)
+85 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu set size:undefined disposed:false
+86 http fetch GET 200 https://registry.npmjs.org/@next%2fenv 3391ms (cache updated)
+87 silly packumentCache full:https://registry.npmjs.org/@next%2fenv set size:undefined disposed:false
+88 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-ia32-msvc 1568ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-ia32-msvc set size:undefined disposed:false
+90 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc 1555ms (cache updated)
+91 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc set size:undefined disposed:false
+92 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-musl 1852ms (cache updated)
+93 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl set size:undefined disposed:false
+94 http fetch GET 200 https://registry.npmjs.org/scheduler 1551ms (cache updated)
+95 silly packumentCache full:https://registry.npmjs.org/scheduler set size:undefined disposed:false
+96 silly placeDep ROOT @next/env@14.2.28 OK for: next@14.2.28 want: 14.2.28
+97 silly placeDep ROOT @next/swc-darwin-arm64@14.2.28 OK for: next@14.2.28 want: 14.2.28
+98 silly placeDep ROOT @next/swc-darwin-x64@14.2.28 OK for: next@14.2.28 want: 14.2.28
+99 silly placeDep ROOT @next/swc-linux-arm64-gnu@14.2.28 OK for: next@14.2.28 want: 14.2.28
+100 silly placeDep ROOT @next/swc-linux-arm64-musl@14.2.28 OK for: next@14.2.28 want: 14.2.28
+101 silly placeDep ROOT @next/swc-linux-x64-gnu@14.2.28 OK for: next@14.2.28 want: 14.2.28
+102 silly placeDep ROOT @next/swc-linux-x64-musl@14.2.28 OK for: next@14.2.28 want: 14.2.28
+103 silly placeDep ROOT @next/swc-win32-arm64-msvc@14.2.28 OK for: next@14.2.28 want: 14.2.28
+104 silly placeDep ROOT @next/swc-win32-ia32-msvc@14.2.28 OK for: next@14.2.28 want: 14.2.28
+105 silly placeDep ROOT @next/swc-win32-x64-msvc@14.2.28 OK for: next@14.2.28 want: 14.2.28
+106 silly placeDep ROOT @swc/helpers@0.5.5 OK for: next@14.2.28 want: 0.5.5
+107 silly placeDep ROOT graceful-fs@4.2.11 OK for: next@14.2.28 want: ^4.2.11
+108 silly placeDep ROOT styled-jsx@5.1.1 OK for: next@14.2.28 want: 5.1.1
+109 silly fetch manifest @swc/counter@^0.1.3
+110 silly packumentCache full:https://registry.npmjs.org/@swc%2fcounter cache-miss
+111 silly fetch manifest client-only@0.0.1
+112 silly packumentCache full:https://registry.npmjs.org/client-only cache-miss
+113 http fetch GET 200 https://registry.npmjs.org/client-only 60ms (cache updated)
+114 silly packumentCache full:https://registry.npmjs.org/client-only set size:undefined disposed:false
+115 http fetch GET 200 https://registry.npmjs.org/@swc%2fcounter 87ms (cache updated)
+116 silly packumentCache full:https://registry.npmjs.org/@swc%2fcounter set size:undefined disposed:false
+117 silly placeDep ROOT @swc/counter@0.1.3 OK for: @swc/helpers@0.5.5 want: ^0.1.3
+118 silly placeDep ROOT scheduler@0.23.2 OK for: react-dom@18.3.1 want: ^0.23.2
+119 silly placeDep ROOT client-only@0.0.1 OK for: styled-jsx@5.1.1 want: 0.0.1
+120 silly reify mark retired [ 'D:\\portfolio\\node_modules\\@img\\sharp-win32-x64' ]
+121 silly reify mark retired [ 'D:\\portfolio\\node_modules\\@next\\env' ]
+122 silly reify mark retired [ 'D:\\portfolio\\node_modules\\@next\\swc-win32-x64-msvc' ]
+123 silly reify mark retired [ 'D:\\portfolio\\node_modules\\@swc\\helpers' ]
+124 silly reify mark retired [ 'D:\\portfolio\\node_modules\\color' ]
+125 silly reify mark retired [ 'D:\\portfolio\\node_modules\\color-string' ]
+126 silly reify mark retired [ 'D:\\portfolio\\node_modules\\detect-libc' ]
+127 silly reify mark retired [ 'D:\\portfolio\\node_modules\\is-arrayish' ]
+128 silly reify mark retired [
+128 silly reify   'D:\\portfolio\\node_modules\\next',
+128 silly reify   'D:\\portfolio\\node_modules\\.bin\\next',
+128 silly reify   'D:\\portfolio\\node_modules\\.bin\\next.cmd',
+128 silly reify   'D:\\portfolio\\node_modules\\.bin\\next.ps1'
+128 silly reify ]
+129 silly reify mark retired [ 'D:\\portfolio\\node_modules\\react' ]
+130 silly reify mark retired [ 'D:\\portfolio\\node_modules\\react-dom' ]
+131 silly reify mark retired [ 'D:\\portfolio\\node_modules\\scheduler' ]
+132 silly reify mark retired [
+132 silly reify   'D:\\portfolio\\node_modules\\semver',
+132 silly reify   'D:\\portfolio\\node_modules\\.bin\\semver',
+132 silly reify   'D:\\portfolio\\node_modules\\.bin\\semver.cmd',
+132 silly reify   'D:\\portfolio\\node_modules\\.bin\\semver.ps1'
+132 silly reify ]
+133 silly reify mark retired [ 'D:\\portfolio\\node_modules\\sharp' ]
+134 silly reify mark retired [ 'D:\\portfolio\\node_modules\\simple-swizzle' ]
+135 silly reify mark retired [ 'D:\\portfolio\\node_modules\\styled-jsx' ]
+136 silly reify moves {
+136 silly reify   'D:\\portfolio\\node_modules\\@img\\sharp-win32-x64': 'D:\\portfolio\\node_modules\\@img\\.sharp-win32-x64-YoH189g7',
+136 silly reify   'D:\\portfolio\\node_modules\\@next\\env': 'D:\\portfolio\\node_modules\\@next\\.env-9gOUcMea',
+136 silly reify   'D:\\portfolio\\node_modules\\@next\\swc-win32-x64-msvc': 'D:\\portfolio\\node_modules\\@next\\.swc-win32-x64-msvc-v3GEHe67',
+136 silly reify   'D:\\portfolio\\node_modules\\@swc\\helpers': 'D:\\portfolio\\node_modules\\@swc\\.helpers-mMkPhtdb',
+136 silly reify   'D:\\portfolio\\node_modules\\color': 'D:\\portfolio\\node_modules\\.color-tlyBnxjz',
+136 silly reify   'D:\\portfolio\\node_modules\\color-string': 'D:\\portfolio\\node_modules\\.color-string-AXhN5qJM',
+136 silly reify   'D:\\portfolio\\node_modules\\detect-libc': 'D:\\portfolio\\node_modules\\.detect-libc-xeCvK9tu',
+136 silly reify   'D:\\portfolio\\node_modules\\is-arrayish': 'D:\\portfolio\\node_modules\\.is-arrayish-xGrX5SQ9',
+136 silly reify   'D:\\portfolio\\node_modules\\next': 'D:\\portfolio\\node_modules\\.next-1UzVdsq1',
+136 silly reify   'D:\\portfolio\\node_modules\\.bin\\next': 'D:\\portfolio\\node_modules\\.bin\\.next-EjfiV1TZ',
+136 silly reify   'D:\\portfolio\\node_modules\\.bin\\next.cmd': 'D:\\portfolio\\node_modules\\.bin\\.next.cmd-f5lH2YWr',
+136 silly reify   'D:\\portfolio\\node_modules\\.bin\\next.ps1': 'D:\\portfolio\\node_modules\\.bin\\.next.ps1-a33QMA4g',
+136 silly reify   'D:\\portfolio\\node_modules\\react': 'D:\\portfolio\\node_modules\\.react-jhBItSVP',
+136 silly reify   'D:\\portfolio\\node_modules\\react-dom': 'D:\\portfolio\\node_modules\\.react-dom-anuhR5Tg',
+136 silly reify   'D:\\portfolio\\node_modules\\scheduler': 'D:\\portfolio\\node_modules\\.scheduler-0jUQAMQy',
+136 silly reify   'D:\\portfolio\\node_modules\\semver': 'D:\\portfolio\\node_modules\\.semver-1nvqGDPn',
+136 silly reify   'D:\\portfolio\\node_modules\\.bin\\semver': 'D:\\portfolio\\node_modules\\.bin\\.semver-8DdWj1NN',
+136 silly reify   'D:\\portfolio\\node_modules\\.bin\\semver.cmd': 'D:\\portfolio\\node_modules\\.bin\\.semver.cmd-dEGQlqzs',
+136 silly reify   'D:\\portfolio\\node_modules\\.bin\\semver.ps1': 'D:\\portfolio\\node_modules\\.bin\\.semver.ps1-jixvp6pV',
+136 silly reify   'D:\\portfolio\\node_modules\\sharp': 'D:\\portfolio\\node_modules\\.sharp-kCmjsp9p',
+136 silly reify   'D:\\portfolio\\node_modules\\simple-swizzle': 'D:\\portfolio\\node_modules\\.simple-swizzle-AB90kqNX',
+136 silly reify   'D:\\portfolio\\node_modules\\styled-jsx': 'D:\\portfolio\\node_modules\\.styled-jsx-eOUgHdwS'
+136 silly reify }
+137 silly audit bulk request {
+137 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+137 silly audit   '@babel/runtime': [ '7.27.0' ],
+137 silly audit   '@floating-ui/core': [ '1.6.9' ],
+137 silly audit   '@floating-ui/dom': [ '1.6.13' ],
+137 silly audit   '@floating-ui/react-dom': [ '2.1.2' ],
+137 silly audit   '@floating-ui/utils': [ '0.2.9' ],
+137 silly audit   '@hookform/resolvers': [ '3.10.0' ],
+137 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+137 silly audit   '@jridgewell/gen-mapping': [ '0.3.8' ],
+137 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+137 silly audit   '@jridgewell/set-array': [ '1.2.1' ],
+137 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.0' ],
+137 silly audit   '@jridgewell/trace-mapping': [ '0.3.25' ],
+137 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+137 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+137 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+137 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+137 silly audit   '@radix-ui/number': [ '1.1.1' ],
+137 silly audit   '@radix-ui/primitive': [ '1.1.2' ],
+137 silly audit   '@radix-ui/react-accordion': [ '1.2.4' ],
+137 silly audit   '@radix-ui/react-alert-dialog': [ '1.1.7' ],
+137 silly audit   '@radix-ui/react-arrow': [ '1.1.3' ],
+137 silly audit   '@radix-ui/react-aspect-ratio': [ '1.1.3' ],
+137 silly audit   '@radix-ui/react-avatar': [ '1.1.4' ],
+137 silly audit   '@radix-ui/react-checkbox': [ '1.1.5' ],
+137 silly audit   '@radix-ui/react-collapsible': [ '1.1.4' ],
+137 silly audit   '@radix-ui/react-collection': [ '1.1.3' ],
+137 silly audit   '@radix-ui/react-compose-refs': [ '1.1.2' ],
+137 silly audit   '@radix-ui/react-context': [ '1.1.2' ],
+137 silly audit   '@radix-ui/react-context-menu': [ '2.2.7' ],
+137 silly audit   '@radix-ui/react-dialog': [ '1.1.7' ],
+137 silly audit   '@radix-ui/react-direction': [ '1.1.1' ],
+137 silly audit   '@radix-ui/react-dismissable-layer': [ '1.1.6' ],
+137 silly audit   '@radix-ui/react-dropdown-menu': [ '2.1.7' ],
+137 silly audit   '@radix-ui/react-focus-guards': [ '1.1.2' ],
+137 silly audit   '@radix-ui/react-focus-scope': [ '1.1.3' ],
+137 silly audit   '@radix-ui/react-hover-card': [ '1.1.7' ],
+137 silly audit   '@radix-ui/react-id': [ '1.1.1' ],
+137 silly audit   '@radix-ui/react-label': [ '2.1.3' ],
+137 silly audit   '@radix-ui/react-menu': [ '2.1.7' ],
+137 silly audit   '@radix-ui/react-menubar': [ '1.1.7' ],
+137 silly audit   '@radix-ui/react-navigation-menu': [ '1.2.6' ],
+137 silly audit   '@radix-ui/react-popover': [ '1.1.7' ],
+137 silly audit   '@radix-ui/react-popper': [ '1.2.3' ],
+137 silly audit   '@radix-ui/react-portal': [ '1.1.5' ],
+137 silly audit   '@radix-ui/react-presence': [ '1.1.3' ],
+137 silly audit   '@radix-ui/react-primitive': [ '2.0.3' ],
+137 silly audit   '@radix-ui/react-progress': [ '1.1.3' ],
+137 silly audit   '@radix-ui/react-radio-group': [ '1.2.4' ],
+137 silly audit   '@radix-ui/react-roving-focus': [ '1.1.3' ],
+137 silly audit   '@radix-ui/react-scroll-area': [ '1.2.4' ],
+137 silly audit   '@radix-ui/react-select': [ '2.1.7' ],
+137 silly audit   '@radix-ui/react-separator': [ '1.1.3' ],
+137 silly audit   '@radix-ui/react-slider': [ '1.2.4' ],
+137 silly audit   '@radix-ui/react-slot': [ '1.2.0' ],
+137 silly audit   '@radix-ui/react-switch': [ '1.1.4' ],
+137 silly audit   '@radix-ui/react-tabs': [ '1.1.4' ],
+137 silly audit   '@radix-ui/react-toast': [ '1.2.7' ],
+137 silly audit   '@radix-ui/react-toggle': [ '1.1.3' ],
+137 silly audit   '@radix-ui/react-toggle-group': [ '1.1.3' ],
+137 silly audit   '@radix-ui/react-tooltip': [ '1.2.0' ],
+137 silly audit   '@radix-ui/react-use-callback-ref': [ '1.1.1' ],
+137 silly audit   '@radix-ui/react-use-controllable-state': [ '1.1.1' ],
+137 silly audit   '@radix-ui/react-use-escape-keydown': [ '1.1.1' ],
+137 silly audit   '@radix-ui/react-use-layout-effect': [ '1.1.1' ],
+137 silly audit   '@radix-ui/react-use-previous': [ '1.1.1' ],
+137 silly audit   '@radix-ui/react-use-rect': [ '1.1.1' ],
+137 silly audit   '@radix-ui/react-use-size': [ '1.1.1' ],
+137 silly audit   '@radix-ui/react-visually-hidden': [ '1.1.3' ],
+137 silly audit   '@radix-ui/rect': [ '1.1.1' ],
+137 silly audit   '@types/d3-array': [ '3.2.1' ],
+137 silly audit   '@types/d3-color': [ '3.1.3' ],
+137 silly audit   '@types/d3-ease': [ '3.0.2' ],
+137 silly audit   '@types/d3-interpolate': [ '3.0.4' ],
+137 silly audit   '@types/d3-path': [ '3.1.1' ],
+137 silly audit   '@types/d3-scale': [ '4.0.9' ],
+137 silly audit   '@types/d3-shape': [ '3.1.7' ],
+137 silly audit   '@types/d3-time': [ '3.0.4' ],
+137 silly audit   '@types/d3-timer': [ '3.0.2' ],
+137 silly audit   '@types/debug': [ '4.1.12' ],
+137 silly audit   '@types/estree': [ '1.0.7' ],
+137 silly audit   '@types/estree-jsx': [ '1.0.5' ],
+137 silly audit   '@types/hast': [ '3.0.4', '2.3.10' ],
+137 silly audit   '@types/mdast': [ '4.0.4' ],
+137 silly audit   '@types/ms': [ '2.1.0' ],
+137 silly audit   '@types/node': [ '22.14.1' ],
+137 silly audit   '@types/nodemailer': [ '6.4.17' ],
+137 silly audit   '@types/react': [ '19.1.2' ],
+137 silly audit   '@types/react-dom': [ '19.1.2' ],
+137 silly audit   '@types/unist': [ '3.0.3', '2.0.11' ],
+137 silly audit   '@ungap/structured-clone': [ '1.3.0' ],
+137 silly audit   'ansi-regex': [ '6.1.0', '5.0.1' ],
+137 silly audit   'ansi-styles': [ '6.2.1', '4.3.0' ],
+137 silly audit   'any-promise': [ '1.3.0' ],
+137 silly audit   anymatch: [ '3.1.3' ],
+137 silly audit   arg: [ '5.0.2' ],
+137 silly audit   'aria-hidden': [ '1.2.4' ],
+137 silly audit   autoprefixer: [ '10.4.21' ],
+137 silly audit   bail: [ '2.0.2' ],
+137 silly audit   'balanced-match': [ '1.0.2' ],
+137 silly audit   'binary-extensions': [ '2.3.0' ],
+137 silly audit   'brace-expansion': [ '2.0.1' ],
+137 silly audit   braces: [ '3.0.3' ],
+137 silly audit   browserslist: [ '4.24.4' ],
+137 silly audit   busboy: [ '1.6.0' ],
+137 silly audit   'camelcase-css': [ '2.0.1' ],
+137 silly audit   'caniuse-lite': [ '1.0.30001714' ],
+137 silly audit   ccount: [ '2.0.1' ],
+137 silly audit   'character-entities': [ '2.0.2', '1.2.4' ],
+137 silly audit   'character-entities-html4': [ '2.1.0' ],
+137 silly audit   'character-entities-legacy': [ '3.0.0', '1.1.4' ],
+137 silly audit   'character-reference-invalid': [ '2.0.1', '1.1.4' ],
+137 silly audit   chokidar: [ '3.6.0' ],
+137 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+137 silly audit   'class-variance-authority': [ '0.7.1' ],
+137 silly audit   clsx: [ '2.1.1' ],
+137 silly audit   cmdk: [ '1.0.4' ],
+137 silly audit   'color-convert': [ '2.0.1' ],
+137 silly audit   'color-name': [ '1.1.4' ],
+137 silly audit   'comma-separated-tokens': [ '2.0.3', '1.0.8' ],
+137 silly audit   commander: [ '4.1.1' ],
+137 silly audit   'cross-spawn': [ '7.0.6' ],
+137 silly audit   cssesc: [ '3.0.0' ],
+137 silly audit   csstype: [ '3.1.3' ],
+137 silly audit   'd3-array': [ '3.2.4' ],
+137 silly audit   'd3-color': [ '3.1.0' ],
+137 silly audit   'd3-ease': [ '3.0.1' ],
+137 silly audit   'd3-format': [ '3.1.0' ],
+137 silly audit   'd3-interpolate': [ '3.0.1' ],
+137 silly audit   'd3-path': [ '3.1.0' ],
+137 silly audit   'd3-scale': [ '4.0.2' ],
+137 silly audit   'd3-shape': [ '3.2.0' ],
+137 silly audit   'd3-time': [ '3.1.0' ],
+137 silly audit   'd3-time-format': [ '4.1.0' ],
+137 silly audit   'd3-timer': [ '3.0.1' ],
+137 silly audit   'date-fns': [ '4.1.0' ],
+137 silly audit   debug: [ '4.4.0' ],
+137 silly audit   'decimal.js-light': [ '2.5.1' ],
+137 silly audit   'decode-named-character-reference': [ '1.1.0' ],
+137 silly audit   dequal: [ '2.0.3' ],
+137 silly audit   'detect-node-es': [ '1.1.0' ],
+137 silly audit   devlop: [ '1.1.0' ],
+137 silly audit   didyoumean: [ '1.2.2' ],
+137 silly audit   dlv: [ '1.1.3' ],
+137 silly audit   'dom-helpers': [ '5.2.1' ],
+137 silly audit   eastasianwidth: [ '0.2.0' ],
+137 silly audit   'electron-to-chromium': [ '1.5.137' ],
+137 silly audit   'embla-carousel': [ '8.5.1' ],
+137 silly audit   'embla-carousel-react': [ '8.5.1' ],
+137 silly audit   'embla-carousel-reactive-utils': [ '8.5.1' ],
+137 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+137 silly audit   escalade: [ '3.2.0' ],
+137 silly audit   'estree-util-is-identifier-name': [ '3.0.0' ],
+137 silly audit   eventemitter3: [ '4.0.7' ],
+137 silly audit   extend: [ '3.0.2' ],
+137 silly audit   'fast-equals': [ '5.2.2' ],
+137 silly audit   'fast-glob': [ '3.3.3' ],
+137 silly audit   fastq: [ '1.19.1' ],
+137 silly audit   fault: [ '1.0.4' ],
+137 silly audit   'fill-range': [ '7.1.1' ],
+137 silly audit   'foreground-child': [ '3.3.1' ],
+137 silly audit   format: [ '0.2.2' ],
+137 silly audit   'fraction.js': [ '4.3.7' ],
+137 silly audit   fsevents: [ '2.3.3' ],
+137 silly audit   'function-bind': [ '1.1.2' ],
+137 silly audit   'get-nonce': [ '1.0.1' ],
+137 silly audit   glob: [ '10.4.5' ],
+137 silly audit   hasown: [ '2.0.2' ],
+137 silly audit   'hast-util-parse-selector': [ '2.2.5' ],
+137 silly audit   'hast-util-to-jsx-runtime': [ '2.3.6' ],
+137 silly audit   'hast-util-whitespace': [ '3.0.0' ],
+137 silly audit   hastscript: [ '6.0.0' ],
+137 silly audit   'property-information': [ '5.6.0', '7.0.0' ],
+137 silly audit   'space-separated-tokens': [ '1.1.5', '2.0.2' ],
+137 silly audit   'highlight.js': [ '10.7.3' ],
+137 silly audit   'highlightjs-vue': [ '1.0.0' ],
+137 silly audit   'html-url-attributes': [ '3.0.1' ],
+137 silly audit   'inline-style-parser': [ '0.2.4' ],
+137 silly audit   'input-otp': [ '1.4.1' ],
+137 silly audit   internmap: [ '2.0.3' ],
+137 silly audit   'is-alphabetical': [ '2.0.1', '1.0.4' ],
+137 silly audit   'is-alphanumerical': [ '2.0.1', '1.0.4' ],
+137 silly audit   'is-binary-path': [ '2.1.0' ],
+137 silly audit   'is-core-module': [ '2.16.1' ],
+137 silly audit   'is-decimal': [ '2.0.1', '1.0.4' ],
+137 silly audit   'is-extglob': [ '2.1.1' ],
+137 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+137 silly audit   'is-glob': [ '4.0.3' ],
+137 silly audit   'is-hexadecimal': [ '2.0.1', '1.0.4' ],
+137 silly audit   'is-number': [ '7.0.0' ],
+137 silly audit   'is-plain-obj': [ '4.1.0' ],
+137 silly audit   isexe: [ '2.0.0' ],
+137 silly audit   jackspeak: [ '3.4.3' ],
+137 silly audit   jiti: [ '1.21.7' ],
+137 silly audit   'js-tokens': [ '4.0.0' ],
+137 silly audit   lilconfig: [ '3.1.3' ],
+137 silly audit   'lines-and-columns': [ '1.2.4' ],
+137 silly audit   lodash: [ '4.17.21' ],
+137 silly audit   'longest-streak': [ '3.1.0' ],
+137 silly audit   'loose-envify': [ '1.4.0' ],
+137 silly audit   lowlight: [ '1.20.0' ],
+137 silly audit   'lru-cache': [ '10.4.3' ],
+137 silly audit   'lucide-react': [ '0.454.0' ],
+137 silly audit   'mdast-util-from-markdown': [ '2.0.2' ],
+137 silly audit   'mdast-util-mdx-expression': [ '2.0.1' ],
+137 silly audit   'mdast-util-mdx-jsx': [ '3.2.0' ],
+137 silly audit   'mdast-util-mdxjs-esm': [ '2.0.1' ],
+137 silly audit   'mdast-util-phrasing': [ '4.1.0' ],
+137 silly audit   'mdast-util-to-hast': [ '13.2.0' ],
+137 silly audit   'mdast-util-to-markdown': [ '2.1.2' ],
+137 silly audit   'mdast-util-to-string': [ '4.0.0' ],
+137 silly audit   merge2: [ '1.4.1' ],
+137 silly audit   micromark: [ '4.0.2' ],
+137 silly audit   'micromark-core-commonmark': [ '2.0.3' ],
+137 silly audit   'micromark-factory-destination': [ '2.0.1' ],
+137 silly audit   'micromark-factory-label': [ '2.0.1' ],
+137 silly audit   'micromark-factory-space': [ '2.0.1' ],
+137 silly audit   'micromark-factory-title': [ '2.0.1' ],
+137 silly audit   'micromark-factory-whitespace': [ '2.0.1' ],
+137 silly audit   'micromark-util-character': [ '2.1.1' ],
+137 silly audit   'micromark-util-chunked': [ '2.0.1' ],
+137 silly audit   'micromark-util-classify-character': [ '2.0.1' ],
+137 silly audit   'micromark-util-combine-extensions': [ '2.0.1' ],
+137 silly audit   'micromark-util-decode-numeric-character-reference': [ '2.0.2' ],
+137 silly audit   'micromark-util-decode-string': [ '2.0.1' ],
+137 silly audit   'micromark-util-encode': [ '2.0.1' ],
+137 silly audit   'micromark-util-html-tag-name': [ '2.0.1' ],
+137 silly audit   'micromark-util-normalize-identifier': [ '2.0.1' ],
+137 silly audit   'micromark-util-resolve-all': [ '2.0.1' ],
+137 silly audit   'micromark-util-sanitize-uri': [ '2.0.1' ],
+137 silly audit   'micromark-util-subtokenize': [ '2.1.0' ],
+137 silly audit   'micromark-util-symbol': [ '2.0.1' ],
+137 silly audit   'micromark-util-types': [ '2.0.2' ],
+137 silly audit   micromatch: [ '4.0.8' ],
+137 silly audit   minimatch: [ '9.0.5' ],
+137 silly audit   minipass: [ '7.1.2' ],
+137 silly audit   ms: [ '2.1.3' ],
+137 silly audit   mz: [ '2.7.0' ],
+137 silly audit   nanoid: [ '3.3.11' ],
+137 silly audit   'next-themes': [ '0.4.6' ],
+137 silly audit   postcss: [ '8.5.3', '8.4.31' ],
+137 silly audit   'node-releases': [ '2.0.19' ],
+137 silly audit   nodemailer: [ '6.10.1' ],
+137 silly audit   'normalize-path': [ '3.0.0' ],
+137 silly audit   'normalize-range': [ '0.1.2' ],
+137 silly audit   'object-assign': [ '4.1.1' ],
+137 silly audit   'object-hash': [ '3.0.0' ],
+137 silly audit   'package-json-from-dist': [ '1.0.1' ],
+137 silly audit   'parse-entities': [ '4.0.2', '2.0.0' ],
+137 silly audit   'path-key': [ '3.1.1' ],
+137 silly audit   'path-parse': [ '1.0.7' ],
+137 silly audit   'path-scurry': [ '1.11.1' ],
+137 silly audit   picocolors: [ '1.1.1' ],
+137 silly audit   picomatch: [ '2.3.1' ],
+137 silly audit   pify: [ '2.3.0' ],
+137 silly audit   pirates: [ '4.0.7' ],
+137 silly audit   'postcss-import': [ '15.1.0' ],
+137 silly audit   'postcss-js': [ '4.0.1' ],
+137 silly audit   'postcss-load-config': [ '4.0.2' ],
+137 silly audit   'postcss-nested': [ '6.2.0' ],
+137 silly audit   'postcss-selector-parser': [ '6.1.2' ],
+137 silly audit   'postcss-value-parser': [ '4.2.0' ],
+137 silly audit   prismjs: [ '1.30.0', '1.27.0' ],
+137 silly audit   'prop-types': [ '15.8.1' ],
+137 silly audit   'react-is': [ '16.13.1', '18.3.1' ],
+137 silly audit   'queue-microtask': [ '1.2.3' ],
+137 silly audit   'react-day-picker': [ '8.10.1' ],
+137 silly audit   'react-hook-form': [ '7.55.0' ],
+137 silly audit   'react-markdown': [ '10.1.0' ],
+137 silly audit   'react-remove-scroll': [ '2.6.3' ],
+137 silly audit   'react-remove-scroll-bar': [ '2.3.8' ],
+137 silly audit   'react-resizable-panels': [ '2.1.7' ],
+137 silly audit   'react-smooth': [ '4.0.4' ],
+137 silly audit   'react-style-singleton': [ '2.2.3' ],
+137 silly audit   'react-syntax-highlighter': [ '15.6.1' ],
+137 silly audit   'react-transition-group': [ '4.4.5' ],
+137 silly audit   'read-cache': [ '1.0.0' ],
+137 silly audit   readdirp: [ '3.6.0' ],
+137 silly audit   recharts: [ '2.15.0' ],
+137 silly audit   'recharts-scale': [ '0.4.5' ],
+137 silly audit   refractor: [ '3.6.0' ],
+137 silly audit   'regenerator-runtime': [ '0.14.1' ],
+137 silly audit   'remark-parse': [ '11.0.0' ],
+137 silly audit   'remark-rehype': [ '11.1.2' ],
+137 silly audit   resolve: [ '1.22.10' ],
+137 silly audit   reusify: [ '1.1.0' ],
+137 silly audit   'run-parallel': [ '1.2.0' ],
+137 silly audit   'shebang-command': [ '2.0.0' ],
+137 silly audit   'shebang-regex': [ '3.0.0' ],
+137 silly audit   'signal-exit': [ '4.1.0' ],
+137 silly audit   sonner: [ '1.7.4' ],
+137 silly audit   'source-map-js': [ '1.2.1' ],
+137 silly audit   streamsearch: [ '1.1.0' ],
+137 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+137 silly audit   'strip-ansi': [ '6.0.1', '7.1.0' ],
+137 silly audit   'stringify-entities': [ '4.0.4' ],
+137 silly audit   'style-to-js': [ '1.1.16' ],
+137 silly audit   'style-to-object': [ '1.0.8' ],
+137 silly audit   sucrase: [ '3.35.0' ],
+137 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+137 silly audit   'tailwind-merge': [ '2.6.0' ],
+137 silly audit   tailwindcss: [ '3.4.17' ],
+137 silly audit   'tailwindcss-animate': [ '1.0.7' ],
+137 silly audit   thenify: [ '3.3.1' ],
+137 silly audit   'thenify-all': [ '1.6.0' ],
+137 silly audit   'tiny-invariant': [ '1.3.3' ],
+137 silly audit   'to-regex-range': [ '5.0.1' ],
+137 silly audit   'trim-lines': [ '3.0.1' ],
+137 silly audit   trough: [ '2.2.0' ],
+137 silly audit   'ts-interface-checker': [ '0.1.13' ],
+137 silly audit   tslib: [ '2.8.1' ],
+137 silly audit   typescript: [ '5.8.3' ],
+137 silly audit   'undici-types': [ '6.21.0' ],
+137 silly audit   unified: [ '11.0.5' ],
+137 silly audit   'unist-util-is': [ '6.0.0' ],
+137 silly audit   'unist-util-position': [ '5.0.0' ],
+137 silly audit   'unist-util-stringify-position': [ '4.0.0' ],
+137 silly audit   'unist-util-visit': [ '5.0.0' ],
+137 silly audit   'unist-util-visit-parents': [ '6.0.1' ],
+137 silly audit   'update-browserslist-db': [ '1.1.3' ],
+137 silly audit   'use-callback-ref': [ '1.3.3' ],
+137 silly audit   'use-sidecar': [ '1.1.3' ],
+137 silly audit   'use-sync-external-store': [ '1.5.0' ],
+137 silly audit   'util-deprecate': [ '1.0.2' ],
+137 silly audit   vaul: [ '0.9.9' ],
+137 silly audit   vfile: [ '6.0.3' ],
+137 silly audit   'vfile-message': [ '4.0.2' ],
+137 silly audit   'victory-vendor': [ '36.9.2' ],
+137 silly audit   which: [ '2.0.2' ],
+137 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+137 silly audit   xtend: [ '4.0.2' ],
+137 silly audit   yaml: [ '2.7.1' ],
+137 silly audit   zod: [ '3.24.3' ],
+137 silly audit   zwitch: [ '2.0.4' ],
+137 silly audit   '@vercel/analytics': [ '1.5.0' ],
+137 silly audit   '@vercel/speed-insights': [ '1.2.0' ],
+137 silly audit   next: [ '14.2.28' ],
+137 silly audit   react: [ '18.3.1' ],
+137 silly audit   'react-dom': [ '18.3.1' ],
+137 silly audit   '@next/env': [ '14.2.28' ],
+137 silly audit   '@next/swc-darwin-arm64': [ '14.2.28' ],
+137 silly audit   '@next/swc-darwin-x64': [ '14.2.28' ],
+137 silly audit   '@next/swc-linux-arm64-gnu': [ '14.2.28' ],
+137 silly audit   '@next/swc-linux-arm64-musl': [ '14.2.28' ],
+137 silly audit   '@next/swc-linux-x64-gnu': [ '14.2.28' ],
+137 silly audit   '@next/swc-linux-x64-musl': [ '14.2.28' ],
+137 silly audit   '@next/swc-win32-arm64-msvc': [ '14.2.28' ],
+137 silly audit   '@next/swc-win32-ia32-msvc': [ '14.2.28' ],
+137 silly audit   '@next/swc-win32-x64-msvc': [ '14.2.28' ],
+137 silly audit   '@swc/helpers': [ '0.5.5' ],
+137 silly audit   'graceful-fs': [ '4.2.11' ],
+137 silly audit   'styled-jsx': [ '5.1.1' ],
+137 silly audit   '@swc/counter': [ '0.1.3' ],
+137 silly audit   scheduler: [ '0.23.2' ],
+137 silly audit   'client-only': [ '0.0.1' ]
+137 silly audit }
+138 verbose reify failed optional dependency D:\portfolio\node_modules\@next\swc-win32-ia32-msvc
+139 silly reify mark deleted [ 'D:\\portfolio\\node_modules\\@next\\swc-win32-ia32-msvc' ]
+140 verbose reify failed optional dependency D:\portfolio\node_modules\@next\swc-win32-arm64-msvc
+141 silly reify mark deleted [ 'D:\\portfolio\\node_modules\\@next\\swc-win32-arm64-msvc' ]
+142 verbose reify failed optional dependency D:\portfolio\node_modules\@next\swc-linux-x64-musl
+143 silly reify mark deleted [ 'D:\\portfolio\\node_modules\\@next\\swc-linux-x64-musl' ]
+144 verbose reify failed optional dependency D:\portfolio\node_modules\@next\swc-linux-x64-gnu
+145 silly reify mark deleted [ 'D:\\portfolio\\node_modules\\@next\\swc-linux-x64-gnu' ]
+146 verbose reify failed optional dependency D:\portfolio\node_modules\@next\swc-linux-arm64-musl
+147 silly reify mark deleted [ 'D:\\portfolio\\node_modules\\@next\\swc-linux-arm64-musl' ]
+148 verbose reify failed optional dependency D:\portfolio\node_modules\@next\swc-linux-arm64-gnu
+149 silly reify mark deleted [ 'D:\\portfolio\\node_modules\\@next\\swc-linux-arm64-gnu' ]
+150 verbose reify failed optional dependency D:\portfolio\node_modules\@next\swc-darwin-x64
+151 silly reify mark deleted [ 'D:\\portfolio\\node_modules\\@next\\swc-darwin-x64' ]
+152 verbose reify failed optional dependency D:\portfolio\node_modules\@next\swc-darwin-arm64
+153 silly reify mark deleted [ 'D:\\portfolio\\node_modules\\@next\\swc-darwin-arm64' ]
+154 verbose reify failed optional dependency D:\portfolio\node_modules\fsevents
+155 silly reify mark deleted [ 'D:\\portfolio\\node_modules\\fsevents' ]
+156 silly tarball no local data for graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz. Extracting by manifest.
+157 silly tarball no local data for @vercel/speed-insights@https://registry.npmjs.org/@vercel/speed-insights/-/speed-insights-1.2.0.tgz. Extracting by manifest.
+158 silly tarball no local data for styled-jsx@https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.1.tgz. Extracting by manifest.
+159 silly tarball no local data for @vercel/analytics@https://registry.npmjs.org/@vercel/analytics/-/analytics-1.5.0.tgz. Extracting by manifest.
+160 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.23.2.tgz. Extracting by manifest.
+161 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-18.3.1.tgz. Extracting by manifest.
+162 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-18.3.1.tgz. Extracting by manifest.
+163 silly tarball no local data for next@https://registry.npmjs.org/next/-/next-14.2.28.tgz. Extracting by manifest.
+164 silly tarball no local data for @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.5.tgz. Extracting by manifest.
+165 silly tarball no local data for @next/swc-win32-x64-msvc@https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-14.2.28.tgz. Extracting by manifest.
+166 silly tarball no local data for @next/env@https://registry.npmjs.org/@next/env/-/env-14.2.28.tgz. Extracting by manifest.
+167 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 192ms (cache miss)
+168 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 450ms
+169 silly audit report {
+169 silly audit report   prismjs: [
+169 silly audit report     {
+169 silly audit report       id: 1102459,
+169 silly audit report       url: 'https://github.com/advisories/GHSA-x7hr-w5r2-h6wg',
+169 silly audit report       title: 'PrismJS DOM Clobbering vulnerability',
+169 silly audit report       severity: 'moderate',
+169 silly audit report       vulnerable_versions: '<1.30.0',
+169 silly audit report       cwe: [Array],
+169 silly audit report       cvss: [Object]
+169 silly audit report     }
+169 silly audit report   ]
+169 silly audit report }
+170 silly packumentCache corgi:https://registry.npmjs.org/prismjs cache-miss
+171 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.23.2.tgz 544ms (cache miss)
+172 http fetch GET 200 https://registry.npmjs.org/@next/env/-/env-14.2.28.tgz 876ms (cache miss)
+173 http fetch GET 200 https://registry.npmjs.org/prismjs 567ms (cache updated)
+174 silly packumentCache corgi:https://registry.npmjs.org/prismjs set size:undefined disposed:false
+175 silly packumentCache corgi:https://registry.npmjs.org/refractor cache-miss
+176 http fetch GET 200 https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.1.tgz 1088ms (cache miss)
+177 http fetch GET 200 https://registry.npmjs.org/refractor 257ms (cache updated)
+178 silly packumentCache corgi:https://registry.npmjs.org/refractor set size:undefined disposed:false
+179 silly packumentCache corgi:https://registry.npmjs.org/react-syntax-highlighter cache-miss
+180 http fetch GET 200 https://registry.npmjs.org/react/-/react-18.3.1.tgz 1365ms (cache miss)
+181 http fetch GET 200 https://registry.npmjs.org/react-syntax-highlighter 410ms (cache updated)
+182 silly packumentCache corgi:https://registry.npmjs.org/react-syntax-highlighter set size:undefined disposed:false
+183 http fetch GET 200 https://registry.npmjs.org/@vercel/speed-insights/-/speed-insights-1.2.0.tgz 1901ms (cache miss)
+184 http fetch GET 200 https://registry.npmjs.org/@vercel/analytics/-/analytics-1.5.0.tgz 1951ms (cache miss)
+185 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-18.3.1.tgz 2180ms (cache miss)
+186 http fetch GET 200 https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.5.tgz 3811ms (cache miss)
+187 http fetch GET 200 https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-14.2.28.tgz 22024ms (cache miss)
+188 http fetch GET 200 https://registry.npmjs.org/next/-/next-14.2.28.tgz 48004ms (cache miss)
+189 info run @vercel/speed-insights@1.2.0 postinstall node_modules/@vercel/speed-insights node scripts/postinstall.mjs
+190 info run @vercel/speed-insights@1.2.0 postinstall { code: 0, signal: null }
+191 silly ADD node_modules/graceful-fs
+192 silly ADD
+193 silly ADD
+194 silly ADD
+195 silly ADD
+196 silly ADD
+197 silly ADD
+198 silly ADD
+199 silly ADD
+200 silly ADD node_modules/@vercel/speed-insights
+201 silly ADD node_modules/@vercel/analytics
+202 silly ADD
+203 silly CHANGE node_modules/styled-jsx
+204 silly REMOVE node_modules/simple-swizzle
+205 silly REMOVE node_modules/sharp
+206 silly REMOVE node_modules/semver
+207 silly CHANGE node_modules/scheduler
+208 silly CHANGE node_modules/react-dom
+209 silly CHANGE node_modules/react
+210 silly CHANGE node_modules/next
+211 silly REMOVE node_modules/is-arrayish
+212 silly REMOVE node_modules/detect-libc
+213 silly REMOVE node_modules/color-string
+214 silly REMOVE node_modules/color
+215 silly CHANGE node_modules/@swc/helpers
+216 silly CHANGE node_modules/@next/swc-win32-x64-msvc
+217 silly CHANGE node_modules/@next/env
+218 silly REMOVE node_modules/@img/sharp-win32-x64
+219 verbose cwd D:\portfolio
+220 verbose os Windows_NT 10.0.22631
+221 verbose node v18.20.5
+222 verbose npm  v10.8.2
+223 verbose exit 0
+224 info ok

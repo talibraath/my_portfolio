@@ -1,0 +1,123 @@
+.experience {
+  background: rgba(15, 17, 26, 0.3);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+}
+
+.sectionTitle::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--soft-aqua), var(--pastel-violet));
+}
+
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.timelineItem {
+  position: relative;
+  padding-bottom: 2.5rem;
+}
+
+.timelineMarker {
+  position: absolute;
+  left: -2rem;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, var(--soft-aqua), var(--pastel-violet));
+  box-shadow: 0 0 10px rgba(74, 222, 222, 0.5);
+}
+
+.timelineContent {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.timelineContent:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.itemTitle {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.itemMeta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.company {
+  color: var(--soft-aqua);
+}
+
+.period {
+  color: rgba(241, 245, 249, 0.6);
+}
+
+.description {
+  list-style-position: inside;
+  color: rgba(241, 245, 249, 0.8);
+}
+
+.description li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.eduDescription {
+  color: rgba(241, 245, 249, 0.8);
+  line-height: 1.5;
+}
+
+@media (max-width: 992px) {
+  .content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .educationSection {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .itemMeta {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+}

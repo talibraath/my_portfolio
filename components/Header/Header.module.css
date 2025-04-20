@@ -1,0 +1,183 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 1.5rem 0;
+  transition: all 0.3s ease;
+}
+
+.scrolled {
+  background: rgba(15, 17, 26, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 1rem 0;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.logoIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--soft-aqua), var(--pastel-violet));
+  color: var(--deep-midnight);
+  font-family: var(--font-orbitron);
+  font-weight: 700;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 15px rgba(74, 222, 222, 0.3);
+}
+
+.logoText {
+  font-family: var(--font-sora);
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, var(--soft-aqua), var(--pastel-violet));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.logoText span {
+  font-weight: 400;
+  margin-right: 2px;
+}
+
+.nav {
+  display: flex;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.navList li a {
+  position: relative;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  padding: 0.5rem 0;
+}
+
+.navList li a:hover,
+.navList li a.active {
+  color: var(--soft-aqua);
+}
+
+.navList li a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--soft-aqua), var(--pastel-violet));
+  transition: width 0.3s ease;
+}
+
+.navList li a:hover::after,
+.navList li a.active::after {
+  width: 100%;
+}
+
+.menuButton {
+  display: none;
+  background: transparent;
+  border: none;
+  width: 30px;
+  height: 24px;
+  position: relative;
+  z-index: 101;
+}
+
+.menuButton span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: var(--text-color);
+  border-radius: 2px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
+.menuButton span:nth-child(1) {
+  top: 0px;
+}
+
+.menuButton span:nth-child(2) {
+  top: 10px;
+}
+
+.menuButton span:nth-child(3) {
+  top: 20px;
+}
+
+.menuButton.active span:nth-child(1) {
+  top: 10px;
+  transform: rotate(135deg);
+}
+
+.menuButton.active span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.menuButton.active span:nth-child(3) {
+  top: 10px;
+  transform: rotate(-135deg);
+}
+
+@media (max-width: 992px) {
+  .menuButton {
+    display: block;
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background: rgba(15, 17, 26, 0.95);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: right 0.3s ease;
+  }
+
+  .nav.active {
+    right: 0;
+  }
+
+  .navList {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .navList li a {
+    font-size: 1.2rem;
+  }
+}
