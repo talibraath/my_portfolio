@@ -6,7 +6,7 @@ import Image from "next/image"
 import styles from "./Projects.module.css"
 import { ExternalLink, Github } from "lucide-react"
 
-type ProjectCategory = "all" | "fullstack" | "ai" | "devops" | "mobile"
+type ProjectCategory = "all" | "fullstack" | "ai" | "aiagent" | "mobile"
 
 interface Project {
   id: number
@@ -24,7 +24,7 @@ const Projects = () => {
 
   const projects: Project[] = [
     {
-      id: 1,
+      id: 2,
       title: "SkillsMap Navigator",
       description: "Built an interactive web tool to connect job seekers with relevant training courses and job opportunities, aligning with their skill sets.",
       image: "/projects/skillsnavigator.png",
@@ -34,7 +34,16 @@ const Projects = () => {
       githubUrl: "https://github.com/talibraath/SkillsMap-Navigator",
     },
     {
-      id: 2,
+      id: 1,
+      title: "Costarica Star Villas",
+      description: "Implemented a chatbot integration on WordPress to automate lead generation and enhance customer engagement, send a chat summary of every potential lead to the reservation team and make a booking.",
+      image: "/projects/costarica.png",
+      category: ["aiagent"],
+      technologies: ["Wordpress","Chatbot","Ai Agent", "Openai", "Assistant", "Gmail API"],
+      liveUrl: "https://costaricastarvillas.com/",
+    },
+    {
+      id: 3,
       title: "SmartHire",
       description: "Developed a web-based recruitment system using Next.js and Django Rest Framework, automating job postings and facilitating AI-driven candidate screening and scheduling interviews.",
       image: "/projects/smarthire.png",
@@ -43,75 +52,89 @@ const Projects = () => {
       liveUrl: "https://smarthirre.ai/",
       githubUrl: "https://github.com/talibraath/SmartHire",
     },
+
     {
-      id: 3,
+      id: 6,
+      title: "MerrimackValley Roofing & Gutter Cleaning",
+      description: "Implemented a chatbot integration on WordPress to automate lead generation and enhance customer engagement, and send a chat summary of each potential lead.",
+      image: "/projects/merrimack.png",
+      category: ["aiagent"],
+      technologies: ["AI", "Chatbot", "AI Agent", "Lead Generation","Openai"],
+      liveUrl: "https://merrimackvalleyroofing.com/",
+    },
+    {
+      id: 4,
       title: "Sigod",
       description: "SiGod is a ChatGPT-style AI chatbot using OpenAI and Pinecone for smart, context-aware conversations.",
       image: "/projects/sigod.png",
-      category: ["ai"],
+      category: ["ai", "aiagent"],
       technologies: ["Next.js", "Openai", "Pinecone", "TypeScript", "MongoDB"],
       liveUrl: "https://sigod.com/",
       githubUrl: "https://github.com/talibraath/Sigod",
     },
     {
-      id: 4,
-      title: "Fight Detection System",
-      description: "AI system that detects fights in videos using TensorFlow Object Detection.",
-      image: "/projects/fightDetection.jpeg",
-      category: ["ai"],
-      technologies: ["Python", "TensorFlow", "OpenCV", "Tkinter"],
-      githubUrl: "https://github.com/saadrehman171000/Fight-Detection-System",
-    },
-    {
       id: 5,
-      title: "OCR Petition Validator",
-      description: "A web app for validating petition signatures with advanced OCR capabilities.",
-      image: "/projects/ocr_petition_validator_image.png",
-      category: ["ai", "fullstack"],
-      technologies: ["React.js", "Flask", "MongoDB", "Google Cloud Vision API"],
-      githubUrl: "https://github.com/saadrehman171000/OCR-Petition-Validator",
-    },
-    {
-      id: 6,
-      title: "CBT Therapy Bot",
-      description: "AI-based therapy bot combining CBT techniques to provide mental health support.",
-      image: "/projects/CBTbot.jpg",
-      category: ["ai"],
-      technologies: ["Next.js", "TypeScript", "FastAPI", "Google Gemini API"],
-      liveUrl: "https://expo.dev",
-      githubUrl: "https://github.com/saadrehman171000/CBT-Therapy-Bot",
-    },
+      title: "Ai Expense Report",
+      description: "Created an AI-driven expense reporting application with ReactJS and Node.js, significantly reducing manual data entry time.",
+      image: "/projects/aiexpensereport.png",
+      category: ["ai","fullstack"],
+      technologies: ["ReactJS", "Node.js","OCR", "OpenCV"],
+      liveUrl: "https://aiexpensereport.netlify.app/",    },
     {
       id: 7,
-      title: "DevOps Hub",
-      description: "Platform to learn about DevOps practices including CI/CD, Kubernetes, Docker, and more.",
-      image: "/projects/DevopsHub.png",
-      category: ["devops"],
-      technologies: ["DevOps", "CI/CD", "Kubernetes", "Docker"],
-      liveUrl: "https://devops-hub-woad.vercel.app/",
-      githubUrl: "https://github.com/saadrehman171000/DevOps-Hub",
+      title: "write on Time",
+      description: "Developed an AI-powered email generation tool leveraging the MERN stack and OpenAI API, improving email creation efficiency by approximately 40%.",
+      image: "/projects/write_on_time.png",
+      category: ["ai", "fullstack"],
+      technologies: ["React.js", "Openai", "Node.js", "Gmail API"],
+      liveUrl: "https://writeontime.netlify.app/",
+      githubUrl: "https://github.com/talibraath/Write-on-Time",
     },
+   
+   
     {
       id: 8,
-      title: "AI Music Generation",
-      description: "AI-based music creation platform for generating and transforming music styles.",
-      image: "/projects/AiMusicGeneration.png",
-      category: ["ai"],
-      technologies: ["AI Algorithms", "Music Style Transfer", "Next.js"],
-      liveUrl: "https://music-ai-delta.vercel.app/",
-      githubUrl: "https://github.com/saadrehman171000/AI-Music-Generation",
+      title: "Novelty Logistics",
+      description: "Developed a logistics management website to enhance shipment tracking, logistics operations, and customer experience.",
+      image: "/projects/novelty_logistics.png",
+      category: ["fullstack"],
+      technologies: ["NEXT.js", "Node.js", "Firebase", "Google Forms"],
+      liveUrl: "https://noveltylogistics.vercel.app/",
+      githubUrl: "https://github.com/talibraath/Novelty-logistics",
+    },
+    {
+      id: 9,
+      title: "Predict Weather",
+      description: "Developed a weather prediction application using open weather api to provide accurate weather forecasts.",
+      image: "/projects/predict_weather.png",
+      category: ["fullstack"],
+      technologies: ["React", "API", "Open Weather API"],
+      liveUrl: "https://predictweather.netlify.app/",
+      githubUrl: "https://github.com/talibraath/WeatherApp",
     },
 
     {
       id: 9,
-      title: "Music Therapy Dementia App",
-      description: "React Native app designed to support dementia patients through personalized music playlists, therapeutic tools, and cognitive stimulation.",
-      image: "/projects/DementiaApp.png",
-      category: ["mobile"],
-      technologies: ["React Native", "Expo", "Node.js", "Firebase", "Voice Recognition API", "Text-to-Speech API"],
-      liveUrl: "https://expo.dev",
-      githubUrl: "https://github.com/saadrehman171000/Music-Therapy-Dementia-App",
+      title: "Dastan-e-Sukhan",
+      description: "A Streamlit app that generates Urdu poetry using LSTM and Seq2Seq models.",
+      image: "/projects/dastan-e-sukhan.png",
+      category: ["ai"],
+      technologies: ["Python","Seq2seq","NLP", "Streamlit", "Urdu Language Processing"],
+      liveUrl: "https://dastan-e-sukhan.streamlit.app/",
+      githubUrl: "https://github.com/talibraath/Dastan-e-Sukhan",
     },
+
+    {
+      id: 9,
+      title: "Arabic to English",
+      description: "A neural machine translation app using Seq2Seq architecture for accurate Arabic to English translation.",
+      image: "/projects/arabic_trans.png",
+      category: ["ai"],
+      technologies: ["Python","Seq2seq","NLP", "Streamlit", "Urdu Language Processing"],
+      liveUrl: "https://englishtoarabic.streamlit.app/",
+      githubUrl: "https://github.com/talibraath/english-to-arabic",
+    },
+
   ]
 
   const filteredProjects =
@@ -142,10 +165,10 @@ const Projects = () => {
             AI & ML
           </button>
           <button
-            className={`${styles.categoryBtn} ${activeCategory === "devops" ? styles.active : ""}`}
-            onClick={() => setActiveCategory("devops")}
+            className={`${styles.categoryBtn} ${activeCategory === "aiagent" ? styles.active : ""}`}
+            onClick={() => setActiveCategory("aiagent")}
           >
-            DevOps
+            Ai Agent & Chatbot
           </button>
           <button
             className={`${styles.categoryBtn} ${activeCategory === "mobile" ? styles.active : ""}`}
