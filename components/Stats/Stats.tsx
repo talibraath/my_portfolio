@@ -46,7 +46,7 @@ const Stats = () => {
     },
   ]
 
-  const finalValues = [110, 40, 4, 1000]
+  const finalValues = [30, 20, 1.5, 100]
   const [currentValues, setCurrentValues] = useState(stats.map(() => 0))
 
   useEffect(() => {
