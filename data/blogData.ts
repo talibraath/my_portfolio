@@ -140,7 +140,7 @@ export interface BlogPost {
       readTime: "8 min read",
       category: "Web Development",
       slug: "building-scalable-web-applications",
-      author: "Saad Rehman",
+      author: "Talib Husain",
       tags: ["Next.js", "React", "Web Development", "Performance", "Scalability"],
     },
     {
@@ -317,7 +317,7 @@ export interface BlogPost {
       readTime: "10 min read",
       category: "AI & ML",
       slug: "machine-learning-for-web-developers",
-      author: "Saad Rehman",
+      author: "Talib Husain",
       tags: ["Machine Learning", "AI", "Web Development", "TensorFlow.js", "User Experience"],
     },
     {
@@ -597,7 +597,7 @@ export interface BlogPost {
       readTime: "9 min read",
       category: "Database",
       slug: "optimizing-database-performance",
-      author: "Saad Rehman",
+      author: "Talib Husain",
       tags: ["Database", "Performance", "SQL", "MongoDB", "Optimization"],
     },
     {
@@ -707,7 +707,7 @@ export interface BlogPost {
       readTime: "9 min read",
       category: "Web Development",
       slug: "future-of-web-development-2024",
-      author: "Saad Rehman",
+      author: "Talib Husain",
       tags: ["Web Development", "AI", "WebAssembly", "Edge Computing", "PWAs", "Web3"],
     }
   ];

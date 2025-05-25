@@ -97,7 +97,7 @@ With deep expertise in the NEXT.js, Django Rest Framework, and Generative AI, I 
               <div className={styles.imageBorder}></div>
               <Image
                 src="/image/MyPic.png"
-                alt="Saad Rehman"
+                alt="Talib Husain"
                 width={500}
                 height={500}
                 className={styles.image}
