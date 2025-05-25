@@ -33,6 +33,22 @@ const Projects = () => {
       liveUrl: "https://skillmapnavigator.com/",
       githubUrl: "https://github.com/talibraath/SkillsMap-Navigator",
     },
+
+
+
+       {
+      id: 3,
+      title: "Ai Scorer",
+      description: "AI Writing Scorer is a sophisticated tool that leverages the power of GPT-4 to provide detailed, objective analysis of written content. Whether you're a student, professional writer, or content creator, our platform helps you understand your writing's strengths and areas for improvement.The tool evaluates multiple aspects of writing including clarity, coherence, grammar, style, and engagement, providing actionable feedback that helps you refine your writing skills over time.",
+      image: "/projects/ai-scorer.png",
+      category: ["fullstack","ai"],
+      technologies: ["Next.js", "Nodejs","OpenAI", "TypeScript", "TailwindCSS"],
+      liveUrl: "http://ai-scorer.vercel.app/",
+      githubUrl: "https://github.com/talibraath/ai-scorer",
+    },
+
+
+
     {
       id: 1,
       title: "Costarica Star Villas",
